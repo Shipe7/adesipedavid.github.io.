@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Poppins:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Roboto+Condensed&display=swap');
+
+body {
+    font-family:  'Montserrat', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.profile img {
+    width: 180px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.profile h1 {
+    margin: 0;
+    color: rgb(253, 198, 0);
+    font-size: 28px;
+
+}
+
+.profile p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15%;
+
+}
+
+.links a {
+
+    padding: 20px 0px;
+    align-items: center;
+    background-color:rgb(253, 198, 0);
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+    border-radius: 50px;
+    margin: 15px 0;
+    transition: all 0.5s;
+   
+}
+
+.links a:hover {
+    background-color: #000000;
+    border: 1px solid rgb(253, 198, 0);
+}
+
+.bio-text{
+    width: 70%;
+    color: rgb(253, 198, 0) !important;
+    font-size: 15px !important;
+    margin-left: 15% !important;
+}
